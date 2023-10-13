@@ -1,0 +1,52 @@
+.contacts {
+    display: flex;
+    justify-content: center; /* Центруємо елементи вздовж головної вісі */
+    align-items: center; /* Центруємо елементи вздовж поперечної вісі */
+    margin-top: 30px;
+}
+.text1{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.text2{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.text2:hover{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    box-shadow: 5px 5px 30px 30px orange;;
+}
+
+.discord{
+    border-radius: 100px;
+}
+
+.text1:hover{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    box-shadow: 5px 5px 20px 20px white;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: black;
+    text-align: center; /* Центруємо текст */
+    margin-left: 300px; /* Додаємо відступи між елементами */
+}
+
+.contacts img {
+    border-radius: 10px; /* Закруглю
